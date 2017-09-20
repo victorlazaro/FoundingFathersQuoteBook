@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		CF22FDBF1F7228D000B3A4FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22FDBE1F7228D000B3A4FC /* AppDelegate.swift */; };
-		CF22FDC11F7228D000B3A4FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22FDC01F7228D000B3A4FC /* ViewController.swift */; };
 		CF22FDC41F7228D000B3A4FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF22FDC21F7228D000B3A4FC /* Main.storyboard */; };
 		CF22FDC61F7228D000B3A4FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF22FDC51F7228D000B3A4FC /* Assets.xcassets */; };
 		CF22FDC91F7228D000B3A4FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF22FDC71F7228D000B3A4FC /* LaunchScreen.storyboard */; };
 		CF22FDD41F7228D000B3A4FC /* Founding_Fathers_Quote_Book_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22FDD31F7228D000B3A4FC /* Founding_Fathers_Quote_Book_2Tests.swift */; };
 		CF22FDDF1F7228D000B3A4FC /* Founding_Fathers_Quote_Book_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22FDDE1F7228D000B3A4FC /* Founding_Fathers_Quote_Book_2UITests.swift */; };
+		CF22FDEF1F722B8D00B3A4FC /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF22FDEE1F722B8D00B3A4FC /* QuoteViewController.swift */; };
+		CFE0D3A71F723B6200DADB1E /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE0D3A61F723B6200DADB1E /* Quote.swift */; };
+		CFE0D3A91F723C9B00DADB1E /* QuoteDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE0D3A81F723C9B00DADB1E /* QuoteDeck.swift */; };
+		CFE0D3AB1F7240D200DADB1E /* TopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE0D3AA1F7240D200DADB1E /* TopicsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		CF22FDBB1F7228D000B3A4FC /* Founding Fathers Quote Book 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Founding Fathers Quote Book 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF22FDBE1F7228D000B3A4FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF22FDC01F7228D000B3A4FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF22FDC31F7228D000B3A4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF22FDC51F7228D000B3A4FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF22FDC81F7228D000B3A4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		CF22FDDA1F7228D000B3A4FC /* Founding Fathers Quote Book 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Founding Fathers Quote Book 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF22FDDE1F7228D000B3A4FC /* Founding_Fathers_Quote_Book_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Founding_Fathers_Quote_Book_2UITests.swift; sourceTree = "<group>"; };
 		CF22FDE01F7228D000B3A4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF22FDEE1F722B8D00B3A4FC /* QuoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		CFE0D3A61F723B6200DADB1E /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		CFE0D3A81F723C9B00DADB1E /* QuoteDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDeck.swift; sourceTree = "<group>"; };
+		CFE0D3AA1F7240D200DADB1E /* TopicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,10 @@
 		CF22FDBD1F7228D000B3A4FC /* Founding Fathers Quote Book 2 */ = {
 			isa = PBXGroup;
 			children = (
-				CF22FDBE1F7228D000B3A4FC /* AppDelegate.swift */,
-				CF22FDC01F7228D000B3A4FC /* ViewController.swift */,
-				CF22FDC21F7228D000B3A4FC /* Main.storyboard */,
-				CF22FDC51F7228D000B3A4FC /* Assets.xcassets */,
-				CF22FDC71F7228D000B3A4FC /* LaunchScreen.storyboard */,
-				CF22FDCA1F7228D000B3A4FC /* Info.plist */,
+				CFE0D3A11F723AF200DADB1E /* Model */,
+				CFE0D3A21F723AFD00DADB1E /* View */,
+				CFE0D3A31F723B0400DADB1E /* Controller */,
+				CFE0D3A51F723B0F00DADB1E /* Supporting Files */,
 			);
 			path = "Founding Fathers Quote Book 2";
 			sourceTree = "<group>";
@@ -123,6 +127,43 @@
 				CF22FDE01F7228D000B3A4FC /* Info.plist */,
 			);
 			path = "Founding Fathers Quote Book 2UITests";
+			sourceTree = "<group>";
+		};
+		CFE0D3A11F723AF200DADB1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFE0D3A61F723B6200DADB1E /* Quote.swift */,
+				CFE0D3A81F723C9B00DADB1E /* QuoteDeck.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CFE0D3A21F723AFD00DADB1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF22FDC21F7228D000B3A4FC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CFE0D3A31F723B0400DADB1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF22FDEE1F722B8D00B3A4FC /* QuoteViewController.swift */,
+				CFE0D3AA1F7240D200DADB1E /* TopicsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CFE0D3A51F723B0F00DADB1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF22FDBE1F7228D000B3A4FC /* AppDelegate.swift */,
+				CF22FDC51F7228D000B3A4FC /* Assets.xcassets */,
+				CF22FDCA1F7228D000B3A4FC /* Info.plist */,
+				CF22FDC71F7228D000B3A4FC /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF22FDC11F7228D000B3A4FC /* ViewController.swift in Sources */,
 				CF22FDBF1F7228D000B3A4FC /* AppDelegate.swift in Sources */,
+				CFE0D3A71F723B6200DADB1E /* Quote.swift in Sources */,
+				CF22FDEF1F722B8D00B3A4FC /* QuoteViewController.swift in Sources */,
+				CFE0D3AB1F7240D200DADB1E /* TopicsViewController.swift in Sources */,
+				CFE0D3A91F723C9B00DADB1E /* QuoteDeck.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
